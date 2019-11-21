@@ -1,7 +1,10 @@
 import React from 'react';
+import LandingPage from '../components/LandingPage/Index';
 
 const App = () => (
-    <div>Hello World</div>
+    <div>
+        <LandingPage />
+    </div>
 )
 
 export default App;

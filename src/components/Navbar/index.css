@@ -1,0 +1,27 @@
+.menubar {
+    height: auto;
+    width: 100%;
+}
+
+.navbar-default {
+    background: rgba(0, 0, 0, 0.5);
+    height: 75px;
+    border-bottom: none;
+    overflow: hidden;
+    transition: .1s;
+}
+.navbar-default {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.site-title {
+    padding: 0;
+}
+.site-title h3 {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 900;
+    margin-top: 24px;
+    letter-spacing: 4px;
+}

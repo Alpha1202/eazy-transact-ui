@@ -1,0 +1,26 @@
+.home-text {
+    margin-top: 20%;
+    text-align: left;
+}
+.home-text h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.home-text p{
+    width: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+.home-text a {
+    background: #333;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    text-decoration: none; 
+}
