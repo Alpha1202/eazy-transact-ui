@@ -1,13 +1,7 @@
 import React from "react";
-import { css, keyframes } from "@emotion/core";
 import NavBarLinks from "../Navbar-Links/index";
 import "./index.css";
 
-const spin = keyframes`
-    to {
-        transform: rotate(360deg);
-    }
-`;
 
 const Navbar = () => {
   return (
@@ -22,22 +16,6 @@ const Navbar = () => {
                 </div>
               </div>
               <NavBarLinks />
-
-              <span
-                css={css`
-                  font-size: 60px;
-                  display: inline-block;
-                  animation: 2s ${spin} linear infinite;
-                  &:hover {
-                    animation: 1s ${spin} linear infinite reverse;
-                    text-decoration: underline;
-                  }
-                `}
-                role="img"
-                aria-label="logo"
-              >
-                💰
-              </span>
             </div>
           </div>
         </nav>

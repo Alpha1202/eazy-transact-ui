@@ -14,7 +14,7 @@
     font-size: 18px;
     line-height: 30px;
 }
-.home-text a {
+.home-text button {
     background: #333;
     color: #fff;
     padding: 10px 30px;
@@ -23,4 +23,7 @@
     margin-top: 25px;
     font-weight: bold;
     text-decoration: none; 
+}
+.modal-wrapper {
+    height: 100vh;
 }

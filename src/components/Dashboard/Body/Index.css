@@ -1,0 +1,197 @@
+#content-area {
+  margin-left: 280px;
+  padding: 15px;
+}
+#content-area .heading h1 {
+  color: purple;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+#content-area .heading p {
+  color: #1b1b1b;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+#content-area .user-cards {
+  overflow: auto;
+  margin-bottom: 30px;
+}
+#content-area .row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#content-area .user-cards .user-card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  overflow: auto;
+}
+#content-area .user-cards .user-card .user-img {
+  background: url("https://randomuser.me/api/portraits/women/68.jpg") no-repeat
+    center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#content-area .user-cards .user-card .user-name {
+  font-size: 1rem;
+  color: purple;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+#content-area .user-cards .user-card .user-title {
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 10px 0;
+}
+#content-area .user-cards .user-card .education {
+  font-size: 0.8rem;
+  display: inline-block;
+  color: #6c7882;
+}
+#content-area .user-cards .user-card .schools {
+  font-size: 0.8rem;
+}
+#content-area .user-cards .user-card h6 {
+  font-size: 0.8rem;
+}
+#content-area .user-cards .user-card .date {
+  font-size: 1.3rem;
+  display: block;
+  border-left: 5px solid #92cf48;
+  position: relative;
+  left: -20px;
+  padding: 5px 40px;
+  margin: 20px 0;
+}
+#content-area .user-cards .user-card .credit {
+  background: #92CF48;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+#content-area .user-cards .user-card .debit {
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+#content-area .user-cards .user-card .location {
+  font-size: 0.8rem;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#content-area .user-cards .user-card .position {
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#content-area .user-cards .user-card .time {
+  color: #6c7882;
+  font-size: 0.8rem;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.col-md-2 {
+  width: ((2 * 100%) / 12);
+  padding: 0 15px;
+  display: inline-block;
+  float: left;
+}
+.col-md-3 {
+  width: ((3 * 100%) / 12);
+  padding: 0 15px;
+  display: inline-block;
+  float: left;
+}
+.col-md-4 {
+  width: ((4 * 100%) / 12);
+  padding: 0 15px;
+  display: inline-block;
+  float: left;
+}
+.col-md-9 {
+  width: ((9 * 100%) / 12);
+  padding: 0 15px;
+  display: inline-block;
+  float: left;
+}
+.col-md-10 {
+  width: ((10 * 100%) / 12);
+  padding: 0 15px;
+  display: inline-block;
+  float: left;
+}
+
+table {
+  width: 100%;
+}
+table thead {
+  background: #eaedf3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+table thead th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 20px 10px;
+  color: #6c7882;
+  text-align: left;
+ 
+}
+table tbody {
+  background: #fff;
+  font-size: 0.8rem;
+}
+table tbody td {
+  padding: 20px 10px;
+  color: #6C7882;
+}
+table tbody td .logo {
+    display: inline-block;
+    background: #92CF48;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    text-align: center;
+}
+table tbody td .debit {
+    display: inline-block;
+    background: red;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+    color: white;
+    text-align: center;
+}
+

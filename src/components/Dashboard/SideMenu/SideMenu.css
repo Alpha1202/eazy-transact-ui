@@ -1,0 +1,47 @@
+#sideMenu {
+    background: #302D43;
+    width: 280px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+nav {
+    padding-top: 100px;
+}
+#sideMenu nav a{
+    display: block;
+    color: #EAEDF3;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+#sideMenu nav button{
+    display: block;
+    color: #EAEDF3;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+#sideMenu nav .fa{
+    color: #EAEDF3;
+    font-size: 1.4rem;
+    margin-right: 0.8rem;
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    top: 2px;
+}
+
+#sideMenu nav a.active {
+    background: #282639;
+    border-left: 5px solid #92CF48;
+    padding: 15px 30px 15px 25px;
+}
+
+#sideMenu nav a:hover{
+    background: #282639;
+    border-left: 5px solid #92CF48;
+    padding: 15px 30px 15px 25px;
+}
